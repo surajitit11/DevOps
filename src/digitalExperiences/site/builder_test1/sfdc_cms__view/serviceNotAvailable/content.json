@@ -1,0 +1,46 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Service Not Available",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"4878a8c7-d11b-4d56-8b58-bc25813f17b3\",\"columns\":[{\"UUID\":\"91b319e5-e6c4-4a4d-b6d9-80a593e33f41\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { },
+                "richTextValue" : "<div style=\"display: flex; align-items: center; flex-direction: column; margin: 60px 25px 40px 25px;\">\n\t<div style=\"background: url(assets/img/serviceNotAvailable.svg) center no-repeat !important; background-size: contain; height: 331px; width: 100%; max-width: 538px;\"></div>\n</div>\n<div style=\"margin: 0 25px; text-align: center;\">\n\t<h1><b style=\"font-size: 2em\">Looks like the site is temporarily unavailable</b></h1>\n\t<br/>\n\t<p><span style=\"font-size: 1.5em;\">Please try again in a bit.</span></p>\n</div>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "ac121209-d635-4ba8-b321-1943672a4cfa",
+              "type" : "component"
+            } ],
+            "id" : "91b319e5-e6c4-4a4d-b6d9-80a593e33f41",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4878a8c7-d11b-4d56-8b58-bc25813f17b3",
+          "type" : "component"
+        } ],
+        "id" : "595184a9-e048-4ae2-a743-ab229a2b7aa2",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "db3c924e-939e-42d8-bec8-023d6ce54e35",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "ServiceNotAvailable",
+    "viewType" : "service-not-available"
+  }
+}

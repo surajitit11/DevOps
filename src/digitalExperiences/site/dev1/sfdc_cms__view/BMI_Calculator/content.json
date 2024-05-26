@@ -1,0 +1,62 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "BMI Calculator",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"a66b3e5b-0fb6-4e95-b877-432191d18a43\",\"columns\":[{\"UUID\":\"9e862b44-5f98-4179-bdb6-f2f1c7645538\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "dxpStyle" : { }
+              },
+              "definition" : "c:bmiCal",
+              "id" : "e4d6fbbe-8c4e-4a37-86d0-8a09207715b8",
+              "type" : "component"
+            } ],
+            "id" : "9e862b44-5f98-4179-bdb6-f2f1c7645538",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "a66b3e5b-0fb6-4e95-b877-432191d18a43",
+          "type" : "component"
+        } ],
+        "id" : "90827157-78b3-4a07-979a-2988a9403b29",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "BMI Calculator",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "5856ab05-1f64-4c00-9fad-4b2c2bf7cb60",
+          "type" : "component"
+        } ],
+        "id" : "178b14c3-c93f-41e1-88a1-5c9c954b8ef3",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "bbc37185-08ae-4cb9-bdd1-df3f83eefdd8",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-bmi-calculator"
+  }
+}

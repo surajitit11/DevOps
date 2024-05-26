@@ -1,0 +1,54 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Currency Converter",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
+            "sectionConfig" : "{\"UUID\":\"caffc68b-cc3a-427c-b42b-dab298b85dc4\",\"columns\":[{\"UUID\":\"e5ec2c39-59b9-4fdd-a63a-5385072982cc\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "e5ec2c39-59b9-4fdd-a63a-5385072982cc",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "caffc68b-cc3a-427c-b42b-dab298b85dc4",
+          "type" : "component"
+        } ],
+        "id" : "4a733029-5f0c-4c79-8181-4ebe3b0c30b6",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Currency Converter",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "100ca07e-77d1-4413-a5ad-8c4afd6cb2c4",
+          "type" : "component"
+        } ],
+        "id" : "75cd9ce9-0a46-451b-8c77-1f3fd1271433",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "49c5e488-8d27-4aa7-9a8e-b0f0b5b2f34b",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-currency-converter"
+  }
+}
